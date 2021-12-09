@@ -1,0 +1,113 @@
+Creating a new React app in C:\Users\Rios\Desktop\Google Form\e_system.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+yarn add v1.22.17
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.20.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 7 new dependencies.
+info Direct dependencies
+├─ cra-template@1.1.2
+├─ react-dom@17.0.2
+├─ react-scripts@4.0.3
+└─ react@17.0.2
+info All dependencies
+├─ cra-template@1.1.2
+├─ immer@8.0.1
+├─ react-dev-utils@11.0.4
+├─ react-dom@17.0.2
+├─ react-scripts@4.0.3
+├─ react@17.0.2
+└─ scheduler@0.20.2
+Done in 286.09s.
+Git repo not initialized Error: Command failed: git --version
+    at checkExecSyncError (child_process.js:643:11)
+    at execSync (child_process.js:679:15)
+    at tryGitInit (C:\Users\Rios\Desktop\Google Form\e_system\node_modules\react-scripts\scripts\init.js:46:5)
+    at module.exports (C:\Users\Rios\Desktop\Google Form\e_system\node_modules\react-scripts\scripts\init.js:283:7)
+    at [eval]:3:14
+    at Script.runInThisContext (vm.js:134:12)
+    at Object.runInThisContext (vm.js:311:38)
+    at internal/process/execution.js:77:19
+    at [eval]-wrapper:6:22
+    at evalScript (internal/process/execution.js:76:60) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 1092,
+  stdout: null,
+  stderr: null
+}
+
+Installing template dependencies using yarnpkg...
+yarn add v1.22.17
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.20.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > @testing-library/user-event@12.8.3" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 16 new dependencies.
+info Direct dependencies
+├─ @testing-library/jest-dom@5.15.1
+├─ @testing-library/react@11.2.7
+├─ @testing-library/user-event@12.8.3
+├─ react-dom@17.0.2
+├─ react@17.0.2
+└─ web-vitals@1.1.2
+info All dependencies
+├─ @testing-library/dom@7.31.2
+├─ @testing-library/jest-dom@5.15.1
+├─ @testing-library/react@11.2.7
+├─ @testing-library/user-event@12.8.3
+├─ @types/aria-query@4.2.2
+├─ @types/jest@27.0.3
+├─ @types/testing-library__jest-dom@5.14.1
+├─ css.escape@1.5.1
+├─ css@3.0.0
+├─ lz-string@1.4.4
+├─ min-indent@1.0.1
+├─ react-dom@17.0.2
+├─ react@17.0.2
+├─ redent@3.0.0
+├─ strip-indent@3.0.0
+└─ web-vitals@1.1.2
+Done in 27.61s.
+Removing template package using yarnpkg...
+
+yarn remove v1.22.17
+[1/2] Removing module cra-template...
+[2/2] Regenerating lockfile and installing missing dependencies...
+warning " > @testing-library/user-event@12.8.3" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+warning "react-scripts > @typescript-eslint/eslint-plugin > tsutils@3.20.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+success Uninstalled packages.
+Done in 9.48s.
+
+Success! Created e_system at C:\Users\Rios\Desktop\Google Form\e_system
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd e_system
+  yarn start
+
+Happy hacking!
