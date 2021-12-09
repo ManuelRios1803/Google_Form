@@ -458,7 +458,7 @@ function Question_form() {
   
   <AccordionDetails className="add_question" >
                            <div className="top_header">
-                                Choose Correct Answer
+                                Elige la respuesta correcta
                            </div>
   <div >
       <div className="add_question_top">
@@ -506,7 +506,7 @@ function Question_form() {
           <div className="add_question_body">
     
              
-              <Button size="small"  style={{textTransform: 'none',color:"#4285f4",fontSize:"13px",fontWeight:"600"}}> <BsFileText style={{fontSize:"20px",marginRight:"8px"}}/>Add Answer Feedback</Button>
+              <Button size="small"  style={{textTransform: 'none',color:"#4285f4",fontSize:"13px",fontWeight:"600"}}> <BsFileText style={{fontSize:"20px",marginRight:"8px"}}/>Añade la respuesta</Button>
           
           
           </div>
@@ -517,7 +517,7 @@ function Question_form() {
           <div className="add_question_bottom">
             
           <Button variant="outlined" color="primary"  style={{textTransform: 'none',color:"#4285f4",fontSize:"12px",marginTop:"12px",fontWeight:"600"}} onClick={()=>{doneAnswer(i)}}>
-                          Done
+                          Aceptar
                         </Button>
           
         </div>
@@ -585,7 +585,7 @@ function Question_form() {
   
                   
                   <div className="save_form">
-              <Button variant="contained" color="primary" onClick={commitToDB} style={{fontSize:"14px"}}>Save</Button>
+              <Button variant="contained" color="primary" onClick={commitToDB} style={{fontSize:"14px"}}>Guardar</Button>
   
               </div>
               </div>

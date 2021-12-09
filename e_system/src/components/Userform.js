@@ -155,12 +155,11 @@ function submit(){
                 }         
                  
             <div className="user_form_submit">
-            <Button  variant="contained" color="primary" onClick={submit} style={{fontSize:"14px"}}>Submit</Button>
+            <Button  variant="contained" color="primary" onClick={submit} style={{fontSize:"14px"}}>Terminar</Button>
 
             </div>
        
             <div className="user_footer">
-                Google Forms
             </div>
             </div>
             
