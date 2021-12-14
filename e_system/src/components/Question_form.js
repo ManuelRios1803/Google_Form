@@ -400,7 +400,7 @@ function Question_form() {
 
 
                         {ques.options.map((op, j) => (
-                          <div className="add_question_body" key={j}>
+                          <div className="add_question_body" key={j} >
                             {
                               (ques.questionType != "text") ?
                                 <input type={ques.questionType} style={{ marginRight: "10px" }} /> :
@@ -411,7 +411,7 @@ function Question_form() {
                               <input type="text" className="text_input" placeholder="option" value={ques.options[j].optionText} onChange={(e) => { handleOptionValue(e.target.value, i, j) }}></input>
                             </div>
 
-                            <CropOriginalIcon style={{ color: colors.words_color }} />
+                            <CropOriginalIcon style={{ color: colors.words_color, marginLeft: "10px" }} />
 
                             <IconButton aria-label="delete" onClick={() => { removeOption(i, j) }}>
                               <CloseIcon style={{ color: colors.words_color }} />
@@ -431,7 +431,7 @@ function Question_form() {
 
                             } label={
                               <div>
-                                <input type="text" className="text_input" style={{ fontSize: "13px", width: "60px" }} placeholder="Nuevo"></input>
+                                <input type="text" className="text_input" style={{ fontSize: "13px", width: "60px", marginLeft: "6px", marginRight: "10px", marginTop: "3.5px" }} placeholder="Nuevo"></input>
                                 <Button size="small" onClick={() => { addOption(i) }} style={{ textTransform: 'none', color: colors.words_color, fontSize: "13px", fontWeight: "600" }}>Añadir opción</Button>
                               </div>
                             } />
@@ -468,8 +468,8 @@ function Question_form() {
                         </div>
                         <div >
                           <div className="add_question_top">
-                            <input style={{ color: colors.words_color }} type="text" className="question " placeholder="Question" value={ques.questionText} onChange={(e) => { handleQuestionValue(e.target.value, i) }} disabled />
-                            <input style={{ color: colors.words_color }} type="number" className="points" min="0" step="1" placeholder="0" onChange={(e) => { setOptionPoints(e.target.value, i) }} />
+                            <input type="text" className="question " placeholder="Question" value={ques.questionText} onChange={(e) => { handleQuestionValue(e.target.value, i) }} disabled />
+                            <input type="number" className="points" min="0" step="1" placeholder="0" onChange={(e) => { setOptionPoints(e.target.value, i) }} />
 
 
                           </div>
